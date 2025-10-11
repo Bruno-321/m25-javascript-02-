@@ -152,10 +152,6 @@ aside li:nth-child(even) {
     background-color: #f8f9fa;
 }
 
-aside li:nth-child(odd):not(:first-child) {
-    background-color: #ffffff;
-}
-
 aside li:hover {
     background-color: #e3f2fd;
     transform: translateX(5px);
