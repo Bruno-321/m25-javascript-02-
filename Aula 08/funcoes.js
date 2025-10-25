@@ -13,3 +13,18 @@ function fatorial (numero){
     return ret;
 }
 console.log("O Fatirial de 5 é " + fatorial(5));
+
+
+console.log("\n" + "-" .repeat(20) + "\n");
+
+
+//Arrow function 
+const fatorial_arrow = (numero) => {
+    let ret = 1;
+    for (let k=numero; k> 1; k--){
+        ret *= k;
+    }
+    return ret;
+}
+
+console.log("O fatorial (arrow) de 5 é " + fatorial_arrow(5));
