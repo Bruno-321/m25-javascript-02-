@@ -1,5 +1,10 @@
 {
   "produtos": [
-
+    {
+      "id": 1,
+      "descricao": "pão",
+      "saldo": "1",
+      "preco": "2"
+    }
   ]
 }
