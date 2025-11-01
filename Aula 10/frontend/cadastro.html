@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção de Produtos</title>
+</head>
+<body>
+    <header>
+        <h2>Manutenção de Produtos</h2>
+    </header>
+
+    <section>
+        <form action="#" method="post" name="form_prod">
+            <input type="hidden" name="id" value="null">
+            <fieldset>
+                <legend>Descrição dos Produtos</legend>
+                <label for="iddesc">Descrição do Produto:</label>
+                <input type="text" name="descricao" id="iddesc">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Saldo do Produto</legend>
+                <label for="idsaldo">Saldo do Produto:</label>
+                <input type="number" name="saldo" id="idsaldo">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preço do Produto</legend>
+                <label for="idpreco">Preço do Produto:</label>
+                <input type="number" name="preco" id="idpreco" step="0.01">
+            </fieldset>
+            <br>
+            <input type="submit" value="Gravar">&nbsp;&nbsp;
+            <input type="reset" value="Limpar">
+        </form>    
+    </section>
+
+</body>
+</html>
