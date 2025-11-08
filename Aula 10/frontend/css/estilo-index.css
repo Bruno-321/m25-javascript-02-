@@ -1,0 +1,7 @@
+.img-edit, .img-delete {
+    width: 20px;
+}
+
+.img-delete {
+    cursor: pointer;
+}
