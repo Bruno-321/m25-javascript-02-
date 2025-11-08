@@ -11,6 +11,12 @@
       "descricao": "pão",
       "saldo": 1,
       "preco": 23
+    },
+    {
+      "id": "3",
+      "descricao": "Teste",
+      "saldo": 2,
+      "preco": 3
     }
   ]
 }

@@ -12,8 +12,9 @@ const maior_id = () => {
 const gravar = () => {
     
     //inibir o botão de gravar e reset para o usuário não clicar enquanto grava
-    document.getElementById("btnSubmit").disabled = true
-    document.getElementById("btnReset").disabled = true
+    //document.getElementById("btnSubmit").disabled = true
+    //document.getElementById("btnReset").disabled = true
+    document.getElementById("modal-cadastro").classList.add("show"); 
 
     //buscando os dados dos formularios
     const id = document.querySelector("#id").value;
